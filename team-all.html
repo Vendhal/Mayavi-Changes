@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>All Teams</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/css/main.css" rel="stylesheet" />
+  <style>
+    .year-selector {
+      margin: 30px 0;
+      text-align: center;
+    }
+    .year-selector button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      font-weight: 600;
+      cursor: pointer;
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      border-radius: 0;
+      color: black;
+      font-size: 18px;
+      transition: border-color 0.3s ease, color 0.3s ease;
+    }
+    .year-selector button:hover {
+      border-color: var(--color-primary);
+      background: none;
+      color: var(--color-primary);
+    }
+    .year-selector button.active {
+      border-color: var(--color-primary);
+      background: none;
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main id="main">
+    <section class="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Our Team</h2>
+          <p>Introducing the incredible members of our club team, a dedicated group of talented individuals working together to achieve greatness in their respective fields.</p>
+        </div>
+
+        <div class="year-selector">
+          <button class="year-btn active" data-year="2019">Y19</button>
+          <button class="year-btn" data-year="2020">Y20</button>
+          <button class="year-btn" data-year="2021">Y21</button>
+          <button class="year-btn" data-year="2022">Y22</button>
+          <button class="year-btn" data-year="2023">Y23</button>
+        </div>
+
+        <div id="team-2023" class="team-year" style="display:none;">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/img/core/18.jpg" class="img-fluid" alt="Dr VIJAY KUMAR BURUGARI" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Dr VIJAY KUMAR BURUGARI</h4>
+                <span>CLUB-INCHARGE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="team-2021" class="team-year" style="display:none;">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/img/core/18.jpg" class="img-fluid" alt="Dr VIJAY KUMAR BURUGARI" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Dr VIJAY KUMAR BURUGARI</h4>
+                <span>CLUB-INCHARGE</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/img/core/5.jpg" class="img-fluid" alt="Member 5" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 5</h4>
+                <span>PRESIDENT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="team-2019" class="team-year">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/img/core/18.jpg" class="img-fluid" alt="Dr VIJAY KUMAR BURUGARI" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Dr VIJAY KUMAR BURUGARI</h4>
+                <span>CLUB-INCHARGE</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/img/core/1.jpg" class="img-fluid" alt="Member 1" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 1</h4>
+                <span>Support</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+              <div class="member-img">
+                <img src="assets/img/core/2.jpg" class="img-fluid" alt="Member 2" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 2</h4>
+                <span>Support</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/core/3.jpg" class="img-fluid" alt="Member 3" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 3</h4>
+                <span>Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="team-2020" class="team-year" style="display:none;">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/img/core/18.jpg" class="img-fluid" alt="Dr VIJAY KUMAR BURUGARI" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Dr VIJAY KUMAR BURUGARI</h4>
+                <span>CLUB-INCHARGE</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="550">
+              <div class="member-img">
+                <img src="assets/img/core/2.jpg" class="img-fluid" alt="Member 2" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 2</h4>
+                <span>PRESIDENT</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/img/core/4.jpg" class="img-fluid" alt="Member 4" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 4</h4>
+                <span>Support</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+              <div class="member-img">
+                <img src="assets/img/core/5.jpg" class="img-fluid" alt="Member 5" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 5</h4>
+                <span>Support</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/core/6.jpg" class="img-fluid" alt="Member 6" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 6</h4>
+                <span>Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="team-2022" class="team-year" style="display:none;">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+              <div class="member-img">
+                <img src="assets/img/core/18.jpg" class="img-fluid" alt="Dr VIJAY KUMAR BURUGARI" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Dr VIJAY KUMAR BURUGARI</h4>
+                <span>CLUB-INCHARGE</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+              <div class="member-img">
+                <img src="assets/img/core/8.jpg" class="img-fluid" alt="Member 8" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 8</h4>
+                <span>Support</span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/core/9.jpg" class="img-fluid" alt="Member 9" />
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info text-center">
+                <h4>Member 9</h4>
+                <span>Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    const buttons = document.querySelectorAll('.year-btn');
+    const teamSections = document.querySelectorAll('.team-year');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        buttons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        button.classList.add('active');
+
+        // Hide all team sections
+        teamSections.forEach(section => section.style.display = 'none');
+        // Show selected team section
+        const year = button.getAttribute('data-year');
+        document.getElementById('team-' + year).style.display = 'block';
+      });
+    });
+  </script>
+</body>
+</html>
